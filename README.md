@@ -1,9 +1,18 @@
-# pine script v5 user manual
+# Scrape the pinescript v6 user manual
 
-Each online section is converted to a pdf page.
+This repo contiains the state of the tradingview pinescript doc webpage
+from march 2025. To update it modify the script accordingly and run it.
 
-MacOS:  Use this to combine files to one pdf.
+PDF creation requires pandoc
+```
+$ python scrape_v6.py
+$ python scrape_v6.py --pdf
 
-https://support.apple.com/guide/mac-help/combine-files-into-a-pdf-mchl21ac2368/mac
+```
 
+I am providing the md and pdf version of the documentation as fair use.
+The script is based on:
 
+    https://github.com/shanedemorais/pinescript_v5_user_manual_pdfs
+
+with the state of that version saved in v5.
